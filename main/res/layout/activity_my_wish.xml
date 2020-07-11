@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vWish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="harshp.app.rcbday2014.MyWish">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#ca80ff"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="here's"
+            android:textColor="#9500ff"
+            android:textSize="30dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#ae80ff"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="wishing"
+            android:textColor="#5d00ff"
+            android:textSize="36dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvM3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#8080ff"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="you a"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0000FF"
+            android:textSize="42dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvM4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#80ff80"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="very"
+            android:textColor="#00FF00"
+            android:textSize="48dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvM5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM4"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#ffff80"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="happy"
+            android:textColor="#FFFF00"
+            android:textSize="54dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvM6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM5"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#ffd280"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="birthday"
+            android:textColor="#FFA500"
+            android:textSize="60dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvM7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM6"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="#ff8080"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text="R O H I T"
+            android:textColor="#FF0000"
+            android:textSize="66dp" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/tvM8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvM7"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:shadowColor="@android:color/white"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="5"
+            android:text=">>> >>> swipe >>> >>>"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

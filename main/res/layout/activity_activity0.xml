@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="harshp.app.rcbday2014.Activity0">
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/tvDays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space1"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="99\n Days"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="55dp" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/tvHours"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDays"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="99\n Hours"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="45dp" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/tvMinutes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHours"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="99\n Minutes"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="35dp" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/tvSeconds"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMinutes"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="99\n Seconds"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvfiller1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="for your\nbirthday surprise..."
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20dp" />
+</RelativeLayout>
